@@ -1,7 +1,7 @@
 ### Hello, I'm LewdHuTao
 ___
 
-- 🔭 I'm currently working on Open Sources Project
+- 🔭 I'm currently working on Open Sources Project and making my bot [Shittybot](https://top.gg/bot/884272327452393502)
 - 🌴 I’m currently learning React
 - 📫 How to reach me: Message me on Discord.
 - ☕ I love to code in JavaScript
