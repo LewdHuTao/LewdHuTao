@@ -25,5 +25,5 @@ ___
 My Discord Profile
 
 <a href="https://discordapp.com/users/454278022132924417/">
-  <img src="https://discord.c99.nl/widget/theme-3/454278022132924417.png" />
+  <img src="https://discord.c99.nl/widget/theme-4/454278022132924417.png" />
 </a>
