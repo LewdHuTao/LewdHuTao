@@ -18,8 +18,6 @@ Languages I Used
   
 ___
  My Stats
- 
-<img src="https://github-readme-stats.vercel.app/api?username=LewdHuTao&show_icons=true&theme=radical&line_height=27&v=5" alt="My GitHub Stats" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=LewdHuTao&theme=tokyonight" alt="My Streak" />
 
