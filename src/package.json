@@ -1,5 +1,5 @@
 {
-  "name": "src",
+  "name": "lewdhutao-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cloudflare/next-on-pages": "^1.11.2",
+    "@cloudflare/workers-types": "^4.20240502.0",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "typewriter-effect": "^2.21.0"
+    "typewriter-effect": "^2.21.0",
+    "wrangler": "^3.53.1"
   },
   "devDependencies": {
     "@types/node": "20.12.8",
