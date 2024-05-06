@@ -21,7 +21,6 @@ ___
 
 <img src="https://github-readme-stats.vercel.app/api/wakatime?username=LewdHuTao&layout=compact&theme=radical">
 <br>
-<br>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=LewdHuTao&theme=tokyonight" alt="My Streak" />
 
 ___
