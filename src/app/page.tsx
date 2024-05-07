@@ -2,21 +2,42 @@
 
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
-import { useEffect } from "react";
-import initAOS from "../utils/aos";
+import { useEffect, useState } from "react";
+import initAOS from "../utils/aos"
+import githubHooks from "../hooks/githubHooks";
 import Navbar from "../components/Navbar";
 import Background from "../public/bg.jpg";
 import AboutBackground from "../public/about_bg.jpg";
 import ghIcon from "../public/github.svg";
+import ghForksIcon from "../public/git_fork.svg";
+import ghStarsIcon from "../public/git_star.svg";
 import dcIcon from "../public/discord.svg";
 import emIcon from "../public/email.svg";
 import P1 from "../public/project1.jpg";
 import P2 from "../public/project2.jpg";
 
 export default function Home() {
+
+  const [forks, setForks] = useState(null);
+  const [stargazers, setStargazers] = useState(null);
+
+  let repoOwner = "shittybot";
+  let repoName = "lavalink-status";
+
   useEffect(() => {
+    const fetchStatus = async () => {
+      const data = await githubHooks(repoOwner, repoName);
+      setStargazers(data.stargazers)
+      setForks(data.forks)
+    };
+
+    fetchStatus();
+
     initAOS();
-  });
+  }, []);
+
+  console.log(forks);
+  
 
   return (
     <div className="select-none relative pb-10">
@@ -99,7 +120,7 @@ export default function Home() {
               <h1 data-aos="zoom-in" className="text-white text-5xl font-bold text-center">My Projects</h1>
               <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10">
 
-                <div className="bg-[#080C11] rounded-xl mx-12 my-5 pb-5">
+                <div className="bg-[#080C11] rounded-xl border-whiter border-2 mx-12 my-5 pb-5">
                   <Image className="rounded-t-xl" alt="project1" src={P1} width={935} height={468} />
                   <p className="text-white text-xl mt-5 mx-3 font-semibold">
                     Shittybot
@@ -109,7 +130,7 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="bg-[#080C11] rounded-xl mx-12 my-5 pb-5">
+                <div className="bg-[#080C11] rounded-xl border-whiter border-2 mx-12 my-5 pb-5">
                   <Image className="rounded-t-xl" alt="project1" src={P2} width={935} height={468} />
                   <p className="text-white text-xl mt-5 mx-3 font-semibold">
                     Lavalink-Status
@@ -117,6 +138,17 @@ export default function Home() {
                   <p className="text-white text-base mt-10 mx-3">
                       A Music streaming service through Discord, multiplatform support ! Spotify, Youtube, Soundcloud and many more ! used by 1M peoples across the world !
                     </p>
+                    <p className="text-white text-base mt-5 mx-3">
+  <div className="inline-flex items-center mr-4">
+    <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30}/> 
+    <a className="mt-1">{forks} Forks</a>
+  </div>
+  <div className="inline-flex items-center">
+    <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30}/> 
+    <a className="mt-2">{stargazers} Stars</a>
+  </div>
+</p>
+
                 </div>
 
                 <div className="bg-[#080C11] rounded-xl mx-12 my-5 pb-5">
