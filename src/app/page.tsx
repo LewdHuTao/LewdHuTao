@@ -322,31 +322,37 @@ export default function Home() {
       </section>
 
       <section id="contact" className="bg-[#1A2435] relative overflow-hidden bg-cover bg-center mt-10 pb-20">
-  <svg className="w-full lg:w-auto h-auto lg:h-full" viewBox="0 0 1440 463" fill="#0D121A" xmlns="http://www.w3.org/2000/svg">
-    <path d="M6.10352e-05 0H1440C1440 0 2133.5 350 1440 350C746.5 350 349 -36.5 6.10352e-05 350C-349 736.5 6.10352e-05 0 6.10352e-05 0Z" fill="#0D121A" stroke="#0D121A"></path>
-  </svg>
+        <svg className="w-full lg:w-auto h-auto lg:h-full" viewBox="0 0 1440 463" fill="#0D121A" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.10352e-05 0H1440C1440 0 2133.5 350 1440 350C746.5 350 349 -36.5 6.10352e-05 350C-349 736.5 6.10352e-05 0 6.10352e-05 0Z" fill="#0D121A" stroke="#0D121A"></path>
+        </svg>
 
-  <div data-aos="flip-down" data-aos-duration="800" className="flex flex-col bg-[#0D121A] rounded-xl border-[#5454D5] border-8 p-8 mx-5 sm:mx-10 lg:mx-20">
-    <div className="flex flex-col">
-      <h1 className="text-white text-center text-4xl mt-[-10px] font-bold">Contact Me</h1>
-      <div className="mt-10 mx-3 sm:mx-10 lg:mx-60 text-center">
-        <button className="p-8 bg-[#1D2634] rounded-full bg-opacity-50 mx-2 sm:mx-10">
-          <Image alt="gh-contact" src={ghIcon} width={24} height={24}/>
-        </button>
-        <button className="p-8 bg-[#1D2634] rounded-full bg-opacity-50 mx-2 sm:mx-10">
-          <Image alt="dc-contact" src={dcIcon} width={24} height={24}/>
-        </button>
-        <button className="p-8 bg-[#1D2634] rounded-full bg-opacity-50 mx-2 sm:mx-10">
-          <Image alt="em-contact" src={emIcon} width={24} height={24}/>
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
+        <div data-aos="flip-down" data-aos-duration="800" className="flex flex-col bg-[#0D121A] rounded-xl border-[#5454D5] border-8 p-8 mx-5 sm:mx-10 lg:mx-20">
+          <div className="flex flex-col">
+            <h1 className="text-white text-center text-4xl mt-[-10px] font-bold">Contact Me</h1>
+            <div className="mt-10 mx-3 sm:mx-10 lg:mx-60 text-center">
+              <Link href="https://github.com/LewdHuTao/">
+                <button className="p-8 bg-[#1D2634] rounded-full bg-opacity-50 mx-2 sm:mx-10">
+                  <Image alt="gh-contact" src={ghIcon} width={24} height={24} />
+                </button>
+              </Link>
+              <Link href="https://discord.com/users/454278022132924417/">
+                <button className="p-8 bg-[#1D2634] rounded-full bg-opacity-50 mx-2 sm:mx-10">
+                  <Image alt="dc-contact" src={dcIcon} width={24} height={24} />
+                </button>
+              </Link>
+              <Link href="mailto:lewdhutao@shittybot.xyz">
+                <button className="p-8 bg-[#1D2634] rounded-full bg-opacity-50 mx-2 sm:mx-10">
+                  <Image alt="em-contact" src={emIcon} width={24} height={24} />
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<footer >
-  <Footer />
-</footer>
+      <footer >
+        <Footer />
+      </footer>
     </div>
   );
 }
