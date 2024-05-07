@@ -34,7 +34,7 @@ export default function Home() {
 
   const [forks4, setForks4] = useState(null);
   const [stargazers4, setStargazers4] = useState(null);
-  
+
   const [forks5, setForks5] = useState(null);
   const [stargazers5, setStargazers5] = useState(null);
 
@@ -107,21 +107,21 @@ export default function Home() {
 
             <div className="grid-rows-3 mt-8">
               <Link href="https://github.com/lewdhutao">
-              <button className="bg-transparent backdrop-blur-sm p-3 mx-2 rounded-md border-2 border-gray-400 hover:scale-110">
-                <Image alt="gh-icon" src={ghIcon} width={24} height={24} />
-              </button>
-</Link>
+                <button className="bg-transparent backdrop-blur-sm p-3 mx-2 rounded-md border-2 border-gray-400 hover:scale-110">
+                  <Image alt="gh-icon" src={ghIcon} width={24} height={24} />
+                </button>
+              </Link>
 
-<Link href="https://discord.com/users/454278022132924417/">
-              <button className="bg-transparent backdrop-blur-sm p-3 mx-2 rounded-md border-2 border-gray-400 hover:scale-110">
-                <Image alt="dc-icon" src={dcIcon} width={24} height={24} />
-              </button>
-</Link>
+              <Link href="https://discord.com/users/454278022132924417/">
+                <button className="bg-transparent backdrop-blur-sm p-3 mx-2 rounded-md border-2 border-gray-400 hover:scale-110">
+                  <Image alt="dc-icon" src={dcIcon} width={24} height={24} />
+                </button>
+              </Link>
 
-<Link href="mailto:lewdhutao@shittybot.xyz">
-              <button className="bg-transparent backdrop-blur-sm p-3 mx-2 rounded-md border-2 border-gray-400 hover:scale-110">
-                <Image alt="em-icon" src={emIcon} width={24} height={24} />
-              </button>
+              <Link href="mailto:lewdhutao@shittybot.xyz">
+                <button className="bg-transparent backdrop-blur-sm p-3 mx-2 rounded-md border-2 border-gray-400 hover:scale-110">
+                  <Image alt="em-icon" src={emIcon} width={24} height={24} />
+                </button>
               </Link>
             </div>
           </div>
@@ -168,74 +168,74 @@ export default function Home() {
             <div className="bg-[#080C11] rounded-xl border-whiter border-2 mx-12 my-5 pb-5 hover:scale-105">
               <button>
                 <Link href="https://github.com/lewdhutao/shittybot">
-              <Image className="rounded-t-xl" alt="project1" src={P1} width={935} height={468} />
-              <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
-                Shittybot - (Private Work)
-              </p>
-              <p className="text-white text-base mt-10 mx-3">
-              A Discord Music Bot that supports multiple platforms, including YouTube, Spotify, SoundCloud, and many more! Plus, 
-              it offers many cool features, and it's free.
-              </p>
-              <div className="text-white text-base mt-5 mx-3">
-                <div className="inline-flex items-center mr-4">
-                  <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
-                  <h1 className="mt-1">{forks1} Forks</h1>
-                </div>
-                <div className="inline-flex items-center">
-                  <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
-                  <h1 className="mt-2">{stargazers1} Stars</h1>
-                </div>
-              </div>
-              </Link>
+                  <Image className="rounded-t-xl" alt="project1" src={P1} width={935} height={468} />
+                  <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
+                    Shittybot - (Private Work)
+                  </p>
+                  <p className="text-white text-base mt-10 mx-3">
+                    A Discord Music Bot that supports multiple platforms, including YouTube, Spotify, SoundCloud, and many more! Plus,
+                    it offers many cool features, and it's free.
+                  </p>
+                  <div className="text-white text-base mt-5 mx-3">
+                    <div className="inline-flex items-center mr-4">
+                      <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
+                      <h1 className="mt-1">{forks1} Forks</h1>
+                    </div>
+                    <div className="inline-flex items-center">
+                      <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
+                      <h1 className="mt-2">{stargazers1} Stars</h1>
+                    </div>
+                  </div>
+                </Link>
               </button>
             </div>
 
             <div className="bg-[#080C11] rounded-xl border-whiter border-2 mx-12 my-5 pb-5 hover:scale-105">
-            <button>
-              <Link href="https://github.com/lewdhutao/lewdhutao">
-              <Image className="rounded-t-xl" alt="project1" src={P2} width={935} height={468} />
-              <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
-                LewdHuTao Website
-              </p>
-              <p className="text-white text-base mt-10 mx-3">
-              A website rewrite using Next.js to bring a new and fresh look to the site.
-              </p>
-              <div className="text-white text-base mt-16 mx-3">
-                <div className="inline-flex items-center mr-4">
-                  <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
-                  <h1 className="mt-1">{forks2} Forks</h1>
-                </div>
-                <div className="inline-flex items-center">
-                  <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
-                  <h1 className="mt-2">{stargazers2} Stars</h1>
-                </div>
-              </div>
-              </Link>
+              <button>
+                <Link href="https://github.com/lewdhutao/lewdhutao">
+                  <Image className="rounded-t-xl" alt="project1" src={P2} width={935} height={468} />
+                  <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
+                    LewdHuTao Website
+                  </p>
+                  <p className="text-white text-base mt-10 mx-3">
+                    A website rewrite using Next.js to bring a new and fresh look to the site.
+                  </p>
+                  <div className="text-white text-base mt-16 mx-3">
+                    <div className="inline-flex items-center mr-4">
+                      <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
+                      <h1 className="mt-1">{forks2} Forks</h1>
+                    </div>
+                    <div className="inline-flex items-center">
+                      <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
+                      <h1 className="mt-2">{stargazers2} Stars</h1>
+                    </div>
+                  </div>
+                </Link>
               </button>
             </div>
 
             <div className="bg-[#080C11] rounded-xl border-whiter border-2 mx-12 my-5 pb-5 hover:scale-105">
               <button>
                 <Link href="https://github.com/shittybot/lavalink-status">
-              <Image className="rounded-t-xl" alt="project1" src={P3} width={935} height={468} />
-              <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
-                Lavalink-Status
-              </p>
-              <p className="text-white text-base mt-10 mx-3">
-              A simple and lightweight Discord bot for monitoring Lavalink through Discord, designed to make your 
-              life easier. It provides a lot of information to monitor.
-              </p>
-              <div className="text-white text-base mt-5 mx-3">
-                <div className="inline-flex items-center mr-4">
-                  <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
-                  <h1 className="mt-1">{forks3} Forks</h1>
-                </div>
-                <div className="inline-flex items-center">
-                  <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
-                  <h1 className="mt-2">{stargazers3} Stars</h1>
-                </div>
-              </div>
-              </Link>
+                  <Image className="rounded-t-xl" alt="project1" src={P3} width={935} height={468} />
+                  <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
+                    Lavalink-Status
+                  </p>
+                  <p className="text-white text-base mt-10 mx-3">
+                    A simple and lightweight Discord bot for monitoring Lavalink through Discord, designed to make your
+                    life easier. It provides a lot of information to monitor.
+                  </p>
+                  <div className="text-white text-base mt-5 mx-3">
+                    <div className="inline-flex items-center mr-4">
+                      <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
+                      <h1 className="mt-1">{forks3} Forks</h1>
+                    </div>
+                    <div className="inline-flex items-center">
+                      <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
+                      <h1 className="mt-2">{stargazers3} Stars</h1>
+                    </div>
+                  </div>
+                </Link>
               </button>
             </div>
 
@@ -243,76 +243,76 @@ export default function Home() {
 
           <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
-          <div className="bg-[#080C11] rounded-xl border-whiter border-2 mx-12 my-5 pb-5 hover:scale-105">
-            <button>
-              <Link href="https://github.com/lewdhutao/lewdhutao">
-              <Image className="rounded-t-xl" alt="project1" src={P4} width={935} height={468} />
-              <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
-                Songcard
-              </p>
-              <p className="text-white text-base mt-10 mx-3">
-              A simple package used to create a songcard when playing music on Discord bot.
-              </p>
-              <div className="text-white text-base mt-16 mx-3">
-                <div className="inline-flex items-center mr-4">
-                  <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
-                  <h1 className="mt-1">{forks4} Forks</h1>
-                </div>
-                <div className="inline-flex items-center">
-                  <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
-                  <h1 className="mt-2">{stargazers4} Stars</h1>
-                </div>
-              </div>
-              </Link>
+            <div className="bg-[#080C11] rounded-xl border-whiter border-2 mx-12 my-5 pb-5 hover:scale-105">
+              <button>
+                <Link href="https://github.com/lewdhutao/lewdhutao">
+                  <Image className="rounded-t-xl" alt="project1" src={P4} width={935} height={468} />
+                  <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
+                    Songcard
+                  </p>
+                  <p className="text-white text-base mt-10 mx-3">
+                    A simple package used to create a songcard when playing music on Discord bot.
+                  </p>
+                  <div className="text-white text-base mt-16 mx-3">
+                    <div className="inline-flex items-center mr-4">
+                      <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
+                      <h1 className="mt-1">{forks4} Forks</h1>
+                    </div>
+                    <div className="inline-flex items-center">
+                      <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
+                      <h1 className="mt-2">{stargazers4} Stars</h1>
+                    </div>
+                  </div>
+                </Link>
               </button>
             </div>
 
             <div className="bg-[#080C11] rounded-xl border-whiter border-2 mx-12 my-5 pb-5 hover:scale-105">
-            <button>
-              <Link href="https://github.com/shittybot/niizuki">
-              <Image className="rounded-t-xl" alt="project1" src={P5} width={935} height={468} />
-              <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
-                Niizuki - (Private Work)
-              </p>
-              <p className="text-white text-base mt-10 mx-3">
-              Niizuki is a Lavalink client used in my Discord Music Bot for playing music. This Lavalink client 
-              is designed to be simple and lightweight.
-              </p>
-              <div className="text-white text-base mt-10 mx-3">
-                <div className="inline-flex items-center mr-4">
-                  <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
-                  <h1 className="mt-1">{forks5} Forks</h1>
-                </div>
-                <div className="inline-flex items-center">
-                  <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
-                  <h1 className="mt-2">{stargazers5} Stars</h1>
-                </div>
-              </div>
-              </Link>
+              <button>
+                <Link href="https://github.com/shittybot/niizuki">
+                  <Image className="rounded-t-xl" alt="project1" src={P5} width={935} height={468} />
+                  <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
+                    Niizuki - (Private Work)
+                  </p>
+                  <p className="text-white text-base mt-10 mx-3">
+                    Niizuki is a Lavalink client used in my Discord Music Bot for playing music. This Lavalink client
+                    is designed to be simple and lightweight.
+                  </p>
+                  <div className="text-white text-base mt-10 mx-3">
+                    <div className="inline-flex items-center mr-4">
+                      <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
+                      <h1 className="mt-1">{forks5} Forks</h1>
+                    </div>
+                    <div className="inline-flex items-center">
+                      <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
+                      <h1 className="mt-2">{stargazers5} Stars</h1>
+                    </div>
+                  </div>
+                </Link>
               </button>
             </div>
 
             <div className="bg-[#080C11] rounded-xl border-whiter border-2 mx-12 my-5 pb-5 hover:scale-105">
-            <button>
-              <Link href="https://github.com/lewdhutao/arduino-smartdoor">
-              <Image className="rounded-t-xl" alt="project1" src={P6} width={935} height={468} />
-              <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
-                Arduino-SmartDoor
-              </p>
-              <p className="text-white text-base mt-10 mx-3">
-              Arduino project for my final year in school. This project was fully written in C++.
-              </p>
-              <div className="text-white text-base mt-20 mx-3">
-                <div className="inline-flex items-center mr-4">
-                  <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
-                  <h1 className="mt-1">{forks6} Forks</h1>
-                </div>
-                <div className="inline-flex items-center">
-                  <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
-                  <h1 className="mt-2">{stargazers6} Stars</h1>
-                </div>
-              </div>
-              </Link>
+              <button>
+                <Link href="https://github.com/lewdhutao/arduino-smartdoor">
+                  <Image className="rounded-t-xl" alt="project1" src={P6} width={935} height={468} />
+                  <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
+                    Arduino-SmartDoor
+                  </p>
+                  <p className="text-white text-base mt-10 mx-3">
+                    Arduino project for my final year in school. This project was fully written in C++.
+                  </p>
+                  <div className="text-white text-base mt-20 mx-3">
+                    <div className="inline-flex items-center mr-4">
+                      <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
+                      <h1 className="mt-1">{forks6} Forks</h1>
+                    </div>
+                    <div className="inline-flex items-center">
+                      <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
+                      <h1 className="mt-2">{stargazers6} Stars</h1>
+                    </div>
+                  </div>
+                </Link>
               </button>
             </div>
 
