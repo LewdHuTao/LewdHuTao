@@ -20,6 +20,7 @@ import P3 from "../public/project3.jpg";
 import P4 from "../public/project4.jpg";
 import P5 from "../public/project5.jpg";
 import P6 from "../public/project6.jpg";
+import Footer from "../components/Footer";
 
 export default function Home() {
 
@@ -82,7 +83,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="select-none relative pb-10">
+    <div className="select-none relative">
       <Navbar />
 
       <div className=" relative overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url(${Background.src})` }}>
@@ -128,7 +129,7 @@ export default function Home() {
         </section>
       </div>
 
-      <section id="about" className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-8 mt-36">
+      <section id="about" className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-8 mt-36 pb-60">
         <div className="flex flex-col lg:flex-row justify-center lg:justify-end">
           <div className="lg:hidden flex justify-center">
             <Image
@@ -160,8 +161,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="work" className="flex flex-col justify-center items-center mx-8">
-        <div className="mt-60">
+      <section id="work" className="flex flex-col justify-center items-center mx-8 pb-20">
+        <div className="mt-20">
           <h1 data-aos="zoom-in" className="text-white text-5xl font-bold text-center">My Projects</h1>
           <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10">
 
@@ -320,7 +321,32 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="contact" className="bg-[#1A2435] relative overflow-hidden bg-cover bg-center mt-10 pb-20">
+  <svg className="w-full lg:w-auto h-auto lg:h-full" viewBox="0 0 1440 463" fill="#0D121A" xmlns="http://www.w3.org/2000/svg">
+    <path d="M6.10352e-05 0H1440C1440 0 2133.5 350 1440 350C746.5 350 349 -36.5 6.10352e-05 350C-349 736.5 6.10352e-05 0 6.10352e-05 0Z" fill="#0D121A" stroke="#0D121A"></path>
+  </svg>
 
+  <div data-aos="flip-down" data-aos-duration="800" className="flex flex-col bg-[#0D121A] rounded-xl border-[#5454D5] border-8 p-8 mx-5 sm:mx-10 lg:mx-20">
+    <div className="flex flex-col">
+      <h1 className="text-white text-center text-4xl mt-[-10px] font-bold">Contact Me</h1>
+      <div className="mt-10 mx-3 sm:mx-10 lg:mx-60 text-center">
+        <button className="p-8 bg-[#1D2634] rounded-full bg-opacity-50 mx-2 sm:mx-10">
+          <Image alt="gh-contact" src={ghIcon} width={24} height={24}/>
+        </button>
+        <button className="p-8 bg-[#1D2634] rounded-full bg-opacity-50 mx-2 sm:mx-10">
+          <Image alt="dc-contact" src={dcIcon} width={24} height={24}/>
+        </button>
+        <button className="p-8 bg-[#1D2634] rounded-full bg-opacity-50 mx-2 sm:mx-10">
+          <Image alt="em-contact" src={emIcon} width={24} height={24}/>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer >
+  <Footer />
+</footer>
     </div>
   );
 }
