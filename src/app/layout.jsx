@@ -1,4 +1,5 @@
 import { Archivo } from "next/font/google";
+import SmoothScrolling from "../components/Smoothscrolling";
 import "./globals.css";
 
 const inter = Archivo({ subsets: ["latin"] });
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <SmoothScrolling />
     </html>
   );
 }
