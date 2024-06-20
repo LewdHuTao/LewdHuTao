@@ -246,7 +246,7 @@ export default function Home() {
 
             <div className="bg-[#080C11] rounded-xl border-whiter border-2 mx-12 my-5 pb-5 hover:scale-105">
               <button>
-                <Link href="https://github.com/lewdhutao/lewdhutao">
+                <Link href="https://github.com/lewdhutao/songcard">
                   <Image className="rounded-t-xl" alt="project1" src={P4} width={935} height={468} />
                   <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
                     Songcard
