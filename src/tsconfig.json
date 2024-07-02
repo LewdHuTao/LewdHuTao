@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/Navbar.tsx", "components/Smoothscrolling.jsx"  ],
+, "components/Navbar.tsx", "components/Smoothscrolling.tsx"  ],
   "exclude": [
     "node_modules"
   ]
