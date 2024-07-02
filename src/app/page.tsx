@@ -178,88 +178,9 @@ export default function Home() {
             <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
             <h1 className="mt-1">{forks1} Forks</h1>
           </div>
-<<<<<<< HEAD
           <div className="inline-flex items-center">
             <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
             <h1 className="mt-2">{stargazers1} Stars</h1>
-=======
-
-          <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-
-            <div className="bg-[#080C11] rounded-xl border-whiter border-2 mx-12 my-5 pb-5 hover:scale-105">
-              <button>
-                <Link href="https://github.com/lewdhutao/songcard">
-                  <Image className="rounded-t-xl" alt="project1" src={P4} width={935} height={468} />
-                  <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
-                    Songcard
-                  </p>
-                  <p className="text-white text-base mt-10 mx-3">
-                    A simple package used to create a songcard when playing music on Discord bot.
-                  </p>
-                  <div className="text-white text-base mt-16 mx-3">
-                    <div className="inline-flex items-center mr-4">
-                      <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
-                      <h1 className="mt-1">{forks4} Forks</h1>
-                    </div>
-                    <div className="inline-flex items-center">
-                      <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
-                      <h1 className="mt-2">{stargazers4} Stars</h1>
-                    </div>
-                  </div>
-                </Link>
-              </button>
-            </div>
-
-            <div className="bg-[#080C11] rounded-xl border-whiter border-2 mx-12 my-5 pb-5 hover:scale-105">
-              <button>
-                <Link href="https://github.com/shittybot/niizuki">
-                  <Image className="rounded-t-xl" alt="project1" src={P5} width={935} height={468} />
-                  <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
-                    Niizuki - (Private Work)
-                  </p>
-                  <p className="text-white text-base mt-10 mx-3">
-                    Niizuki is a Lavalink client used in my Discord Music Bot for playing music. This Lavalink client
-                    is designed to be simple and lightweight.
-                  </p>
-                  <div className="text-white text-base mt-10 mx-3">
-                    <div className="inline-flex items-center mr-4">
-                      <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
-                      <h1 className="mt-1">{forks5} Forks</h1>
-                    </div>
-                    <div className="inline-flex items-center">
-                      <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
-                      <h1 className="mt-2">{stargazers5} Stars</h1>
-                    </div>
-                  </div>
-                </Link>
-              </button>
-            </div>
-
-            <div className="bg-[#080C11] rounded-xl border-whiter border-2 mx-12 my-5 pb-5 hover:scale-105">
-              <button>
-                <Link href="https://github.com/lewdhutao/arduino-smartdoor">
-                  <Image className="rounded-t-xl" alt="project1" src={P6} width={935} height={468} />
-                  <p className="text-white text-left text-xl mt-5 mx-3 font-semibold">
-                    Arduino-SmartDoor
-                  </p>
-                  <p className="text-white text-base mt-10 mx-3">
-                    Arduino project for my final year in school. This project was fully written in C++.
-                  </p>
-                  <div className="text-white text-base mt-20 mx-3">
-                    <div className="inline-flex items-center mr-4">
-                      <Image alt="gh-forks" className="mt-2" src={ghForksIcon} width={30} height={30} />
-                      <h1 className="mt-1">{forks6} Forks</h1>
-                    </div>
-                    <div className="inline-flex items-center">
-                      <Image alt="git-stars" className="mt-3" src={ghStarsIcon} height={30} width={30} />
-                      <h1 className="mt-2">{stargazers6} Stars</h1>
-                    </div>
-                  </div>
-                </Link>
-              </button>
-            </div>
-
->>>>>>> fa4244658005a8798015681a1d0c3178fb142af8
           </div>
         </div>
       </Link>
