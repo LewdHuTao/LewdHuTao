@@ -1,10 +1,8 @@
 ### Hello, I'm LewdHuTao
 ___
 
-- 🔭 I'm currently working on Open Sources Project and making my bot [Shittybot](https://shittybot.xyz)
-- 🌴 I’m currently learning React
+- 🌴 I’m currently learning Java
 - 📫 How to reach me: Message me on Discord.
-- ☕ I love to code in JavaScript
 
 ____
 Tools I Use
@@ -35,6 +33,12 @@ Tools I Use
   </a>
   <a href="https://www.python.org" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+  </a>
+  <a href="https://www.w3schools.com/cpp/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="python" width="40" height="40"/>
+  </a>
+  <a href="https://www.w3schools.com/java/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="python" width="40" height="40"/>
   </a>
 </p>
   
